@@ -1,0 +1,47 @@
+{
+  "name": "nativescript-images-generator-hook",
+  "version": "1.0.0",
+  "description": "Nativescript hook that generates platforms images based on a single 3x image.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Creatiwity/nativescript-images-generator-hook"
+  },
+  "bugs": {
+    "url": "https://github.com/Creatiwity/nativescript-images-generator-hook/issues"
+  },
+  "keywords": [
+    "nativescript",
+    "hook",
+    "images",
+    "ios",
+    "android",
+    "resources",
+    "resize"
+  ],
+  "author": "Julien Blatecky <julien.blatecky@creatiwity.net> (https://github.com/Julien1619)",
+  "license": "MIT",
+  "homepage": "https://github.com/Creatiwity/nativescript-images-generator-hook#readme",
+  "nativescript": {
+    "platforms": {
+      "android": "5.3.0",
+      "ios": "5.3.1"
+    },
+    "hooks": [
+      {
+        "type": "before-prepare",
+        "script": "lib/before-prepare.js",
+        "inject": true
+      }
+    ],
+    "tns-ios": {
+      "version": "5.3.1"
+    },
+    "tns-android": {
+      "version": "5.3.0"
+    }
+  },
+  "scripts": {
+    "postinstall": "node postinstall.js",
+    "preuninstall": "node preuninstall.js"
+  }
+}
