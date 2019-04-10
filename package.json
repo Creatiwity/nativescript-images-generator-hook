@@ -43,5 +43,8 @@
   "scripts": {
     "postinstall": "node postinstall.js",
     "preuninstall": "node preuninstall.js"
+  },
+  "dependencies": {
+    "sharp": "^0.22.0"
   }
 }
