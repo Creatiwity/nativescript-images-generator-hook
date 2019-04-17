@@ -28,8 +28,13 @@
     },
     "hooks": [
       {
-        "type": "before-prepare",
-        "script": "lib/before-prepare.js",
+        "type": "before-shouldPrepare",
+        "script": "lib/before-shouldPrepare.js",
+        "inject": true
+      },
+      {
+        "type": "after-prepare",
+        "script": "lib/after-prepare.js",
         "inject": true
       }
     ],
@@ -43,5 +48,8 @@
   "scripts": {
     "postinstall": "node postinstall.js",
     "preuninstall": "node preuninstall.js"
+  },
+  "dependencies": {
+    "sharp": "^0.22.0"
   }
 }
