@@ -1,6 +1,6 @@
 {
   "name": "nativescript-images-generator-hook",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nativescript hook that generates platforms images based on a single 3x image.",
   "repository": {
     "type": "git",
