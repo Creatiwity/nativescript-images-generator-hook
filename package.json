@@ -28,6 +28,11 @@
     },
     "hooks": [
       {
+        "type": "before-shouldPrepare",
+        "script": "lib/before-shouldPrepare.js",
+        "inject": true
+      },
+      {
         "type": "after-prepare",
         "script": "lib/after-prepare.js",
         "inject": true
