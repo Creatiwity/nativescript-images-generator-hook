@@ -1,6 +1,6 @@
 {
   "name": "nativescript-images-generator-hook",
-  "version": "1.1.2",
+  "version": "2.0.0",
   "description": "Nativescript hook that generates platforms images based on a single high resolution image.",
   "repository": {
     "type": "git",
@@ -23,15 +23,10 @@
   "homepage": "https://github.com/Creatiwity/nativescript-images-generator-hook#readme",
   "nativescript": {
     "platforms": {
-      "android": "5.3.0",
-      "ios": "5.3.1"
+      "android": "6.0.0",
+      "ios": "6.0.1"
     },
     "hooks": [
-      {
-        "type": "before-shouldPrepare",
-        "script": "lib/before-shouldPrepare.js",
-        "inject": true
-      },
       {
         "type": "after-prepare",
         "script": "lib/after-prepare.js",
@@ -39,10 +34,10 @@
       }
     ],
     "tns-ios": {
-      "version": "5.3.1"
+      "version": "6.0.1"
     },
     "tns-android": {
-      "version": "5.3.0"
+      "version": "6.0.0"
     }
   },
   "scripts": {
@@ -50,6 +45,6 @@
     "preuninstall": "node preuninstall.js"
   },
   "dependencies": {
-    "sharp": "^0.22.0"
+    "sharp": "^0.22.1"
   }
 }

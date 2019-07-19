@@ -3,3 +3,4 @@ node_modules/
 tmp/
 typings/
 *.log
+package-lock.json
