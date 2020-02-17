@@ -45,6 +45,6 @@
     "preuninstall": "node preuninstall.js"
   },
   "dependencies": {
-    "sharp": "^0.22.1"
+    "sharp": "^0.24.1"
   }
 }
