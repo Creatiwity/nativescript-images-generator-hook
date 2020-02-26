@@ -1,6 +1,6 @@
 # Nativescript images generator hook
 
-Nativescript hook that generates platforms images based on a single high resolution image.
+Nativescript hook that generates App_Resources images based on a single high resolution image.
 
 ## Installation
 
@@ -17,4 +17,4 @@ If you put an image without scale suffix, it will use it as a `x1` image. You ca
 
 ## License
 
-MIT License - Copyright (c) 2019 Creatiwity
+MIT License - Copyright (c) 2020 Creatiwity
