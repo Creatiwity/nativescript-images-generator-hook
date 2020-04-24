@@ -1,6 +1,6 @@
 {
   "name": "nativescript-images-generator-hook",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Nativescript hook that generates platforms images based on a single high resolution image.",
   "repository": {
     "type": "git",
@@ -28,8 +28,8 @@
     },
     "hooks": [
       {
-        "type": "after-prepare",
-        "script": "lib/after-prepare.js",
+        "type": "before-prepare",
+        "script": "lib/before-prepare.js",
         "inject": true
       }
     ],
@@ -45,6 +45,6 @@
     "preuninstall": "node preuninstall.js"
   },
   "dependencies": {
-    "sharp": "^0.24.1"
+    "sharp": "^0.25.2"
   }
 }
