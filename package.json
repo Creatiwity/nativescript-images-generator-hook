@@ -23,8 +23,8 @@
   "homepage": "https://github.com/Creatiwity/nativescript-images-generator-hook#readme",
   "nativescript": {
     "platforms": {
-      "android": "6.0.0",
-      "ios": "6.0.1"
+      "android": "7.0.1",
+      "ios": "7.2.0"
     },
     "hooks": [
       {
@@ -32,13 +32,7 @@
         "script": "lib/before-prepare.js",
         "inject": true
       }
-    ],
-    "tns-ios": {
-      "version": "6.0.1"
-    },
-    "tns-android": {
-      "version": "6.0.0"
-    }
+    ]
   },
   "scripts": {
     "postinstall": "node postinstall.js",
